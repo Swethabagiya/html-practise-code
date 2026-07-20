@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><title style="text-align: center;">Visitor Management</title></head>
+    <body>
+        <header>
+           <h1>Visitor Management System</h1>
+           <p>Manage visitors, employees, invitations, and reports efficiently.</p>
+        </header>
+        <main>
+        <section>
+
+        <h2>Dashboard</h2>
+            <p>View today's visitor statistics and activities.</p>
+             <button >Go to Dashboard</button>
+             </section>
+    
+
+
+        <section>
+            <h2> Register Visitor</h2>
+            <p>Add a new visitor to the system.</p>
+            <button popovertarget="reg-form">Open Registration Form</button>
+
+                <dialog id="reg-form">
+                <form method="dialog">
+                    <h3>Register Visitor</h3>
+                    <label for="vname">Name</label>
+                    <input type="text" id="vname" name="vname" required>
+                    <button type="submit">Close</button>
+                </form>
+                </dialog>
+        </section>
+
+
+        <section>
+            <h2> Visitors</h2>
+            <p>View and manage all registered visitors.</p>
+            <button popover="View Visitors">View Visitors</button>
+        </section>
+
+
+        <section>
+            <h2> Invite Visitor</h2>
+            <p>Create and send visitor invitations.</p>
+            <button popover="Invite Visitor">Invite Visitor</button>
+        </section>
+
+
+        <section>
+            <h2>Check-In</h2>
+            <p>Check in visitors using QR code or invite details.</p>
+            <button popover="Check In">Check In</button>
+        </section>
+
+
+        <section>
+            <h2>Employees</h2>
+            <p>View employee directory and details.</p>
+            <button popover="View Employees">View Employees</button>
+        </section>
+
+
+        <section>
+            <h2> Reports</h2>
+            <p>Analyze visitor records and generate reports.</p>
+            <button popover="View Reports">View Reports</button>
+        </section>
+
+
+        <section>
+            <h2> Settings</h2>
+            <p>Manage system preferences and configurations.</p>
+            <button popover="Settings">Settings</button>
+        </section>
+
+    </main>
+        
+    </body>
+</html>
