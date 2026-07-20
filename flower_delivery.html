@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Flower Delivery</title>
+        <link rel="icon" href="">
+    </head>
+    <body>
+    <header>
+        <table>
+           <tr>
+                <td>
+                    <h2>Recipient Details</h2>
+                    <label for="name"><b>Full Name</b></label><br>
+                    <input type="text" id="name" required placeholder="Enter your name"><br><br>
+                    <label for="number"><b>Telephone Number</b></label><br>
+                    <input type="tel" id="number" required placeholder="Enter telephone number"><br><br>
+                    <lable for="address"><b>Address</b></label><br>
+                    <textarea id="address" name="address" rows="4" autocomplete="street-address" required placeholder="Enter full delivery address">
+
+                    </textarea> 
+                </td>
+             
+                <td align="top"><h2>Sender Details</h2>
+                <label for="name"><b>Full Name</b></label><br>
+                <input type="text" id="name" required placeholder="Enter your name"><br><br>
+                <label for="mail"><b>Telephone Number</b></label><br>
+                <input type="email" id="mail" required placeholder="Enter email id"><br><br>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <table>
+            <tr>
+                <td>
+                    <h3>Order</h3>
+                    <label for="boquet"><b>Bouquet Type</b></label><br>
+                    <select id="boquet" name="boquet">
+                        <option >Basic Boquet- $24.99</option>
+                        <option> Premium Boquet - $49.99</option>
+                        <option>Premium Boquet+Chocolate - $69.99 </option>
+                    </select>
+                </td>
+                <td>
+                    <label for="message"><b>Message</b></label><br>
+                    <textarea id="message" rows="7" rrquired placeholder="Your Message"></textarea><br>
+                    <button type="submit">Checkout</button>
+                </td>
+            </tr>
+        </table>
+        
+
+    </header>
+</body>
+</html>
