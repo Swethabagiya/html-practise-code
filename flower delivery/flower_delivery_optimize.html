@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Flower Delivery</title>
+        <link rel="stylesheet" href="flower.css">
+    </head>
+    <body>
+    <header>
+              <h1>Flower Delivery</h1>
+    </header>
+    <main>
+        <form>
+            <div class="details">
+           <div class="recipient">
+                
+                    <h2>Recipient Details</h2>
+                    <label for="name"><b>Full Name</b></label><br>
+                    <input type="text" id="name" required placeholder="Enter your name"><br><br>
+                    <label for="number"><b>Telephone Number</b></label><br>
+                    <input type="tel" id="number" required placeholder="Enter telephone number"><br><br>
+                    <label for="address"><b>Address</b></label><br>
+                    <textarea id="address" name="address" rows="4" autocomplete="street-address" required placeholder="Enter full delivery address">
+
+                    </textarea> 
+                </div>
+                
+             <div class="sender" >
+                <h2>Sender Details</h2>
+                <label for="name"><b>Full Name</b></label><br>
+                <input type="text" id="name" required placeholder="Enter your name"><br><br>
+                <label for="mail"><b>Telephone Number</b></label><br>
+                <input type="email" id="mail" required placeholder="Enter email id"><br><br>
+               </div> 
+           </div> 
+        
+       <div class="delivery">
+                
+                        <div class="order">
+                            <h2>Order</h2><br>
+                            <label for="boquet"><b>Bouquet Type</b></label><br>
+                            <select id="boquet" name="boquet">
+                                <option >Basic Boquet- $24.99</option>
+                                <option> Premium Boquet - $49.99</option>
+                                <option>Premium Boquet+Chocolate - $69.99 </option>
+                            </select>
+                </div>
+                
+                <div class="message">
+                        
+                            <label for="message"><b>Message</b></label><br>
+                            <textarea id="message" rows="7" required placeholder="Your Message"></textarea><br>
+                            <button type="submit">Checkout</button>
+                        
+                    
+                </div>
+      </div>
+      </form>        
+    </main>
+    <footer>
+        <H2>Contact</H2>
+        <p>12,West Street,Near Hyundai Showroom<p></p>
+        </p> Mukalivakkam,Chennai</p>
+        <p>Tel NUM:9845679990</p>
+    </footer>
+    
+</body>
+</html>

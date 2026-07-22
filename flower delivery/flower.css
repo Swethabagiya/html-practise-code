@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+body{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    font-family:Arial, sans-serif;
+    
+}
+
+
+.details{
+    display:flex;
+   flex:1;
+}
+.delivery{
+    display:flex;
+    flex:1;
+}
+header{
+    background-color: deepskyblue;
+    padding:30px;
+
+
+}
+
+main{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+form {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+.recipient{
+    flex:1;
+    background-color: lightsteelblue;
+    padding:30px;
+}
+.sender{
+    flex:1;
+     background-color: dodgerblue;
+     padding:30px;
+     
+}
+.order{
+    flex:1;
+    padding:30px;
+    background-color: aliceblue;
+    
+}
+.message{
+    flex:1;
+    padding:30px;
+    background-color: lightblue;
+   
+}
+label{
+    margin-top:20px;
+    line-height:1.6;
+}
+footer
+{
+padding:30px;
+background-color: antiquewhite;
+}
+
+p{
+    margin-top:20px;
+    line-height:1.6;
+}
